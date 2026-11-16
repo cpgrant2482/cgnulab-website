@@ -64,10 +64,11 @@ page-layout: custom
   <section class="closing-band" aria-labelledby="next-heading">
     <div class="section-shell closing-band-inner"><div><span class="section-kicker">The next question</span><h2 id="next-heading">Explore the work behind the discoveries.</h2></div><a class="hero-button primary" href="publications.html">Selected publications <span aria-hidden="true">↗</span></a></div>
   </section>
-  <p id="kamland-provenance" class="kamland-credit"><a href="https://web.stanford.edu/group/grattalab/kamland/Pictures/first_nu_event_prompt_old.jpg">Historical KamLAND display, Stanford</a><span data-event-provenance>. Support lines and hit locations were traced or sampled from the JPEG and fitted to a 2:1 ellipse. The prompt timing and per-PMT charge are modeled, since the image does not contain the measured records.</span></p>
+  <p id="kamland-provenance" class="kamland-credit"><a href="https://web.stanford.edu/group/grattalab/kamland/Pictures/first_nu_event_prompt_old.jpg">Historical KamLAND display, Stanford</a><span data-event-provenance>. Support lines are traced from the JPEG. Hits are matched to an approximate spherical model with 64 possible PMT sites per partition, including partitions split by the Mollweide seam. PMT coordinates, timing, and charge are modeled.</span></p>
 </div>
 <script defer src="scripts/kamland-geometry.js"></script>
 <script defer src="scripts/kamland-event-data.js"></script>
+<script defer src="scripts/kamland-pmt-sites.js"></script>
 <script defer src="scripts/kamland-event-model.js"></script>
 <script defer src="scripts/kamland-event.js"></script>
 ```

@@ -55,19 +55,6 @@
     return charge;
   }
 
-  function fitHistoricalPosition(x, y) {
-    const { centerX, centerY, radiusX, radiusY } = window.kamlandProjection;
-    const dx = x - centerX;
-    const dy = y - centerY;
-    const radius = Math.hypot(dx / radiusX, dy / radiusY);
-    // Softly compress only the outer fringe of the digitized image to the
-    // exact ellipse. The interior and angular ordering are unchanged.
-    const shoulder = 0.97;
-    if (radius <= shoulder) return { x, y };
-    const fitted = shoulder + (0.996 - shoulder) * -Math.expm1(-(radius - shoulder) / (0.996 - shoulder));
-    return { x: centerX + dx * fitted / radius, y: centerY + dy * fitted / radius };
-  }
-
   function illustrativeHits(markers) {
     const timingRandom = seededRandom(21851);
     const orderingRandom = seededRandom(94187);
@@ -76,12 +63,12 @@
     // The archived marker colors give a coarse indication of arrival order.
     // Preserve that order while shuffling within each color group. The groups
     // never determine the pulse shape or create independently timed bursts.
-    return markers.map(([x, y, group]) => ({
-      ...fitHistoricalPosition(x, y),
-      group,
-      order: orderingRandom(),
-      chargePE: sampleCharge(chargeRandom),
-    })).sort((a, b) => a.group - b.group || a.order - b.order)
+    const sites = window.kamlandPMTSites.flat();
+    const siteIds = window.kamlandPromptSiteIds;
+    return markers.map(([, , group], i) => {
+      const [x, y] = sites[siteIds[i]];
+      return { x, y, group, order: orderingRandom(), chargePE: sampleCharge(chargeRandom) };
+    }).sort((a, b) => a.group - b.group || a.order - b.order)
       .map(({ x, y, chargePE }, i) => ({ x, y, timeNs: times[i], chargePE }));
   }
 

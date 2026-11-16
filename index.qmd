@@ -7,15 +7,21 @@ page-layout: custom
 <div class="site-page home-page">
 
   <section class="hero hero--detector" aria-labelledby="home-title">
-    <div class="detector-bg" aria-hidden="true"></div>
-    <canvas class="hero-canvas hero-canvas--subtle" data-particle-field data-density="0.34" aria-hidden="true"></canvas>
     <div class="hero-content">
-      <p class="hero-eyebrow">Grant Neutrino Research Group <span aria-hidden="true">·</span> Boston University</p>
-      <h1 id="home-title">Where the smallest particles <em>raise the biggest questions.</em></h1>
-      <p class="hero-description">We build detectors and develop new ways to analyze their signals, searching for rare processes that illuminate the nature of neutrinos and the origins of matter.</p>
-      <div class="hero-buttons">
-        <a class="hero-button primary" href="research.html">Explore our research <span aria-hidden="true">↗</span></a>
-        <a class="hero-button secondary" href="people.html">Meet the group</a>
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Chris Grant Neutrino Lab <span aria-hidden="true">·</span> Boston University</p>
+        <h1 id="home-title">Where the smallest particles <em>raise the biggest questions.</em></h1>
+        <p class="hero-description">We build detectors and develop new ways to analyze their signals, searching for rare processes that illuminate the nature of neutrinos and the origins of matter.</p>
+        <div class="hero-buttons">
+          <a class="hero-button primary" href="research.html">Explore our research <span aria-hidden="true">↗</span></a>
+          <a class="hero-button secondary" href="people.html">Meet the group</a>
+        </div>
+      </div>
+      <div class="kamland-event" data-kamland-event>
+        <canvas role="img" aria-describedby="kamland-provenance" aria-label="KamLAND prompt-event projection with a synchronized spectrum of integrated charge per hit PMT from 0 to 6 photoelectrons and an arrival-time histogram in 90 equal-width bins from 30 to 90 nanoseconds.">
+          KamLAND detector projection with charge and hit-time histograms.
+        </canvas>
+        <button class="kamland-pause" type="button" hidden>Pause</button>
       </div>
     </div>
     <a class="scroll-cue" href="#research-highlights">Discover our work <span aria-hidden="true">↓</span></a>
@@ -58,6 +64,10 @@ page-layout: custom
   <section class="closing-band" aria-labelledby="next-heading">
     <div class="section-shell closing-band-inner"><div><span class="section-kicker">The next question</span><h2 id="next-heading">Explore the work behind the discoveries.</h2></div><a class="hero-button primary" href="publications.html">Selected publications <span aria-hidden="true">↗</span></a></div>
   </section>
+  <p id="kamland-provenance" class="kamland-credit"><a href="https://web.stanford.edu/group/grattalab/kamland/Pictures/first_nu_event_prompt_old.jpg">Historical KamLAND display, Stanford</a><span data-event-provenance>. Support lines and hit locations were traced or sampled from the JPEG and fitted to a 2:1 ellipse. The prompt timing and per-PMT charge are modeled, since the image does not contain the measured records.</span></p>
 </div>
-<script defer src="scripts/particle-field.js"></script>
+<script defer src="scripts/kamland-geometry.js"></script>
+<script defer src="scripts/kamland-event-data.js"></script>
+<script defer src="scripts/kamland-event-model.js"></script>
+<script defer src="scripts/kamland-event.js"></script>
 ```

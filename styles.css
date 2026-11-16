@@ -12,8 +12,11 @@ a { text-underline-offset: .2em; }
 .navbar .navbar-logo {display:block;width:auto;height:50px;max-height:none;padding-right:0;}
 .navbar .nav-link { color:#e5edf9 !important; font-size:.81rem; padding: .45rem .72rem !important; opacity:.91; }
 .navbar .nav-link:hover, .navbar .nav-link.active { color:#fff !important; opacity:1; }
-.navbar .nav-link.active { text-decoration:underline; text-decoration-color:var(--coral); text-underline-offset:1.05rem; text-decoration-thickness:2px; }
+.navbar .nav-link.active { text-decoration:underline; text-decoration-color:#FFFFFF; text-underline-offset:.65rem; text-decoration-thickness:2px; }
 .navbar .navbar-nav:last-child .nav-link { color:#9cdefe !important; }
+@media (min-width:992px) {
+ .navbar .navbar-collapse { margin-left:clamp(1.5rem, calc(7vw - 45px), 52px); }
+}
 #quarto-content, main.content, #quarto-document-content { margin: 0 !important; padding:0 !important; width:100% !important; max-width:none !important; }
 #quarto-content { display:block !important; }
 main.content { display:block; }
@@ -44,8 +47,6 @@ main.content { display:block; }
 .hero--detector { background:#071429; }
 .hero--detector .detector-bg { position:absolute;inset:0; z-index:0; background:linear-gradient(90deg,#041125 5%,rgba(5,19,40,.78) 43%,rgba(7,21,47,.34) 100%),url('images/detector-portal.svg') 72% center / cover no-repeat; }
 .hero--detector .hero-content { text-align:left; width:min(1250px,89vw); padding:7rem 0; }
-.hero--detector .hero-content h1 { margin-left:0; max-width:780px; font-size:clamp(3.4rem,6.5vw,6.7rem); }
-.hero--detector .hero-content p { margin-left:0; max-width:585px; }
 .hero--detector .hero-buttons { justify-content:flex-start; }
 .hero--detector .scroll-cue {left:clamp(1.5rem,6vw,8rem);transform:none;}
 /* General pages */
@@ -114,14 +115,14 @@ body { overflow-x:hidden; }
 .skip-link:focus { top:1rem; }
 :focus-visible { outline:3px solid var(--focus); outline-offset:4px; }
 .navbar .nav-link { font-weight:600; }
-.navbar .nav-link.active { text-underline-offset:.65rem; }
 .site-page { width:100%; }
 body:has(.home-page) { background: var(--navy); }
+.home-page { background: var(--paper); }
 body:has(.home-page) .navbar { box-shadow: none; }
 /* Change only the URL below once your hero photograph is chosen.
    Example: url('images/hero-detector.jpg')
    Until then this uses original abstract detector-inspired art. */
-.hero--detector { --hero-photo: url('images/detector-portal.svg'); min-height:max(720px, calc(100svh - 76px)); align-items:center; background:#050e23; }
+.hero--detector { --hero-photo: url('images/detector-portal.svg'); min-height:calc(100svh - 76px); align-items:center; background:#050e23; }
 .hero--detector .detector-bg {
  position:absolute; inset:0; z-index:0;
  background-image:linear-gradient(90deg,rgba(2,9,27,.97) 0%,rgba(3,14,36,.92) 27%,rgba(5,16,37,.47) 52%,rgba(4,13,28,.04) 100%),var(--hero-photo);
@@ -131,11 +132,11 @@ body:has(.home-page) .navbar { box-shadow: none; }
 .hero--detector::before { background:linear-gradient(0deg,rgba(2,9,26,.56),transparent 26%); z-index:1; }
 .hero--detector::after {opacity:.10;mask-image:linear-gradient(90deg,transparent 0%,black 65%);}
 .hero--detector .hero-canvas--subtle { opacity:.26; z-index:2; mask-image:linear-gradient(90deg,transparent 26%,black 71%); }
-.hero--detector .hero-content { text-align:left; width:min(1320px,88vw); padding:7rem 0 8.5rem; }
-.hero--detector .hero-eyebrow { color:#b4daf8; font-size:.71rem; letter-spacing:.23em; }
-.hero--detector h1 { width:fit-content; max-width:min(640px, 49vw); font-size:clamp(3.1rem,5.8vw,5.8rem); line-height:1.035; margin:0 0 1.5rem; letter-spacing:-.058em; font-weight:760; text-wrap:pretty; }
-.hero--detector .hero-description { max-width:min(535px, 43vw); font-size:clamp(1.01rem,1.35vw,1.19rem); line-height:1.72; color:#d9e8f7; margin:0; }
-.hero--detector .hero-buttons { margin-top:2.2rem; }
+.hero--detector .hero-content { text-align:left; width:88vw; padding:clamp(2rem, 6vh, 4rem) 0 clamp(4rem, 9vh, 6rem); }
+.hero--detector .hero-eyebrow { margin-left:0; color:#b4daf8; font-size:.71rem; letter-spacing:.23em; }
+.hero--detector h1 { width:fit-content; max-width:39vw; font-size:clamp(2.04rem,3.9vw,4.02rem); line-height:1.035; margin:0 0 1.5rem; letter-spacing:-.058em; font-weight:760; text-wrap:pretty; }
+.hero--detector .hero-description { max-width:min(535px, 39vw); font-size:clamp(1.01rem,1.35vw,1.19rem); line-height:1.72; color:#d9e8f7; margin:0; }
+.hero--detector .hero-buttons { max-width:39vw; margin-top:clamp(1.1rem, 3vh, 1.75rem); }
 .hero--detector .scroll-cue {left:6vw; transform:none; bottom:2.4rem; text-decoration:none; color:#c1d9f0; white-space:nowrap;}
 .hero--detector .scroll-cue::after { display:none; }
 .hero--detector .scroll-cue span {margin-left:.5rem;font-size:1.2rem;}
@@ -208,20 +209,21 @@ body:has(.home-page) .navbar { box-shadow: none; }
 .contact-aside {background:#e8f2fa;padding:2rem;border-radius:12px;line-height:1.9;}
 .contact-aside h3 {font-size:1.35rem;}
 .publication-list li {padding:1.3rem 0;}
+@media (max-width:991.98px) {
+ .hero--detector h1, .hero--detector .hero-description, .hero--detector .hero-buttons {max-width:min(520px, 70vw);}
+}
 @media (max-width:1000px) {
- .hero--detector .hero-content {width:88vw;}
- .hero--detector h1 {max-width:580px;font-size:clamp(3.15rem,6.5vw,5.2rem);}
- .hero--detector .hero-description {max-width:470px;}
  .people-teaser {column-gap:2rem;}
  .news-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
  .people-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
 }
 @media (max-width:700px) {
- .hero--detector {min-height:max(700px, calc(100svh - 66px));align-items:end;}
+ .hero--detector {min-height:calc(100svh - 66px);}
  .hero--detector .detector-bg {background-image:linear-gradient(0deg,rgba(3,11,30,.98) 0%,rgba(4,12,32,.91) 39%,rgba(4,12,32,.42) 73%,rgba(4,12,32,.08) 100%),var(--hero-photo);background-position:center, 63% 22%;}
- .hero--detector .hero-content {width:89vw;padding:7rem 0 6.3rem;}
- .hero--detector h1 {max-width:560px;font-size:clamp(2.7rem,10.3vw,4.3rem);line-height:1.03;}
+ .hero--detector .hero-content {width:89vw;padding:3rem 0 4.5rem;}
+ .hero--detector h1 {max-width:560px;font-size:clamp(1.9rem,7.2vw,3rem);line-height:1.03;}
  .hero--detector .hero-description {max-width:570px;font-size:1rem;}
+ .hero--detector .hero-buttons {max-width:none;}
  .hero--detector .hero-eyebrow {font-size:.62rem;letter-spacing:.13em;}
  .hero--detector .scroll-cue {left:5.5vw;bottom:1.6rem;font-size:.6rem;}
  .hero--detector .hero-canvas--subtle {opacity:.12;mask-image:linear-gradient(0deg,transparent,black);}

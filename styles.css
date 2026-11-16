@@ -7,10 +7,10 @@
 html { scroll-behavior: smooth; }
 body { background: var(--paper); color: var(--ink); font-family: 'Avenir Next', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 a { text-underline-offset: .2em; }
-.navbar { min-height: 73px; padding: .9rem clamp(1rem,4vw,4.5rem); background: rgba(6,17,42,.965) !important; box-shadow: 0 1px 0 rgba(230,240,255,.11); backdrop-filter: blur(12px); }
+.navbar { min-height: 76px; padding: .5rem clamp(1rem,4vw,4.5rem); background: rgba(6,17,42,.965) !important; box-shadow: 0 1px 0 rgba(230,240,255,.11); backdrop-filter: blur(12px); }
 .navbar .navbar-brand-logo {margin-right:0;padding-block:0;}
-.navbar .navbar-logo {display:block;width:auto;height:44px;max-height:none;padding-right:0;}
-.navbar .nav-link { color:#e5edf9 !important; font-size:.92rem; padding: .45rem .85rem !important; opacity:.91; }
+.navbar .navbar-logo {display:block;width:auto;height:50px;max-height:none;padding-right:0;}
+.navbar .nav-link { color:#e5edf9 !important; font-size:.81rem; padding: .45rem .72rem !important; opacity:.91; }
 .navbar .nav-link:hover, .navbar .nav-link.active { color:#fff !important; opacity:1; }
 .navbar .nav-link.active { text-decoration:underline; text-decoration-color:var(--coral); text-underline-offset:1.05rem; text-decoration-thickness:2px; }
 .navbar .navbar-nav:last-child .nav-link { color:#9cdefe !important; }
@@ -113,10 +113,11 @@ body { overflow-x:hidden; }
 .skip-link { position:fixed; top:-100px; left:1rem; z-index:9999; background:#fff; color:#102d55; padding:.7rem 1rem; border-radius:4px; font-weight:700; }
 .skip-link:focus { top:1rem; }
 :focus-visible { outline:3px solid var(--focus); outline-offset:4px; }
-.navbar { min-height:76px; }
 .navbar .nav-link { font-weight:600; }
 .navbar .nav-link.active { text-underline-offset:.65rem; }
 .site-page { width:100%; }
+body:has(.home-page) { background: var(--navy); }
+body:has(.home-page) .navbar { box-shadow: none; }
 /* Change only the URL below once your hero photograph is chosen.
    Example: url('images/hero-detector.jpg')
    Until then this uses original abstract detector-inspired art. */
@@ -236,7 +237,7 @@ body { overflow-x:hidden; }
  .section-headline {align-items:flex-start;}
  .publication-list li {grid-template-columns:32px 1fr;gap:.7rem;}
  .navbar {min-height:66px;}
- .navbar .navbar-logo {height:36px;}
+ .navbar .navbar-logo {height:47px;}
 }
 @media (prefers-reduced-motion: reduce) {
  *, *::before, *::after {scroll-behavior:auto!important;transition:none!important;animation:none!important;}

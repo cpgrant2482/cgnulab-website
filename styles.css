@@ -8,8 +8,8 @@ html { scroll-behavior: smooth; }
 body { background: var(--paper); color: var(--ink); font-family: 'Avenir Next', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
 a { text-underline-offset: .2em; }
 .navbar { min-height: 73px; padding: .9rem clamp(1rem,4vw,4.5rem); background: rgba(6,17,42,.965) !important; box-shadow: 0 1px 0 rgba(230,240,255,.11); backdrop-filter: blur(12px); }
-.navbar .navbar-brand { font-size:1.22rem; font-weight: 850; letter-spacing: .07em; color:#fff !important; }
-.navbar .navbar-brand::before { content:"✳"; font-weight:500; color:var(--coral); padding-right:.55rem; }
+.navbar .navbar-brand-logo {margin-right:0;padding-block:0;}
+.navbar .navbar-logo {display:block;width:auto;height:44px;max-height:none;padding-right:0;}
 .navbar .nav-link { color:#e5edf9 !important; font-size:.92rem; padding: .45rem .85rem !important; opacity:.91; }
 .navbar .nav-link:hover, .navbar .nav-link.active { color:#fff !important; opacity:1; }
 .navbar .nav-link.active { text-decoration:underline; text-decoration-color:var(--coral); text-underline-offset:1.05rem; text-decoration-thickness:2px; }
@@ -236,6 +236,7 @@ body { overflow-x:hidden; }
  .section-headline {align-items:flex-start;}
  .publication-list li {grid-template-columns:32px 1fr;gap:.7rem;}
  .navbar {min-height:66px;}
+ .navbar .navbar-logo {height:36px;}
 }
 @media (prefers-reduced-motion: reduce) {
  *, *::before, *::after {scroll-behavior:auto!important;transition:none!important;animation:none!important;}

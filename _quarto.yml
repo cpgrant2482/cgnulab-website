@@ -10,6 +10,10 @@ website:
   title: "CGNU Lab"
   description: "Grant Neutrino Research Group, Boston University"
   navbar:
+    title: false
+    logo: images/cgnu-navbar-logo.png
+    logo-alt: "CGNU Lab home"
+    logo-href: index.qmd
     pinned: true
     search: false
     collapse: true

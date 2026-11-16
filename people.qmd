@@ -9,19 +9,20 @@ page-layout: custom
   <section class="section-shell" aria-labelledby="team-title"><div class="section-topline"><span class="section-kicker">Current members</span><span class="section-count">As of November 2026</span></div><h2 id="team-title" class="section-title">Our team.</h2>
     <div class="people-grid">
       <article class="person"><img class="person-portrait" src="images/people/christopher-grant.webp" alt="Christopher P. Grant holding a painted pumpkin outdoors" width="800" height="600" decoding="async"><h3>Christopher P. Grant</h3><p>Principal Investigator<br>Associate Professor of Physics</p></article>
-      <article class="person"><img class="person-portrait" src="images/people/omer-penek.webp" alt="Ömer Penek in front of a research poster" width="490" height="442" decoding="async"><h3>Ömer Penek</h3><p>Postdoctoral Researcher<br>KamLAND-Zen and CUPID</p></article>
-      <article class="person"><img class="person-portrait" src="images/people/anika-katt.webp" alt="Anika Katt beside a Neutrino 2026 research poster" width="426" height="450" decoding="async"><h3>Anika Katt</h3><p>Graduate Student<br>CUPID and Eos</p></article>
-      <article class="person"><img class="person-portrait" src="images/people/julia-ryshkewitch.webp" alt="Julia Ryshkewitch beside a poster on hybrid detection" width="388" height="336" decoding="async"><h3>Julia Ryshkewitch</h3><p>Graduate Student<br>Eos and KamLAND-Zen</p></article>
+      <article class="person"><img class="person-portrait" src="images/people/omer-penek.webp" alt="Ömer Penek outdoors in front of a white fence" width="440" height="438" decoding="async"><h3>Ömer Penek</h3><p>Postdoctoral Researcher<br>KamLAND-Zen and CUPID</p></article>
+      <article class="person"><img class="person-portrait" src="images/people/anika-katt.webp" alt="Anika Katt beside a Neutrino 2026 research poster" width="426" height="450" decoding="async"><h3>Anika Katt</h3><p>Graduate Student<br>Eos Detector</p></article>
+      <article class="person"><img class="person-portrait" src="images/people/julia-ryshkewitch.webp" alt="Julia Ryshkewitch beside a poster on hybrid detection" width="388" height="336" decoding="async"><h3>Julia Ryshkewitch</h3><p>Graduate Student<br>Eos Detector</p></article>
       <article class="person"><img class="person-portrait" src="images/people/so-young-jeon.webp" alt="So Young Jeon in front of KamLAND-Zen research posters" width="542" height="456" decoding="async"><h3>So Young Jeon</h3><p>Graduate Student<br>KamLAND-Zen and Eos</p></article>
     </div>
   </section>
-  <section class="dark-band" aria-labelledby="alumni-title"><div class="section-shell"><span class="section-kicker">Group alumni</span><h2 id="alumni-title" class="section-title">Where research leads.</h2>
+  <section class="dark-band people-alumni" aria-labelledby="alumni-title"><div class="section-shell"><span class="section-kicker">Group alumni</span><h2 id="alumni-title" class="section-title">Where research leads.</h2>
+    <p class="section-lede">A few of our alumni and the paths they’ve taken since their time in the group.</p>
     <div class="compact-grid compact-grid--on-dark">
       <div class="compact-item"><strong>Hasung Song</strong><span>Ph.D. 2025 · Postdoctoral researcher, UC Berkeley</span></div>
       <div class="compact-item"><strong>Diana Gooding</strong><span>Ph.D. 2025 · MIT Lincoln Laboratory</span></div>
-      <div class="compact-item"><strong>Aobo Li</strong><span>Ph.D. 2020 · Faculty, UC San Diego</span></div>
-      <div class="compact-item"><strong>Katarzyna Frankiewicz</strong><span>Postdoctoral researcher, 2019–2022</span></div>
-      <div class="compact-item"><strong>Pedro Baculima</strong><span>Undergraduate researcher · Graduate studies at CU Boulder</span></div>
+      <div class="compact-item"><strong>Aobo Li</strong><span>Ph.D. 2020 · Faculty in Physics and the Halıcıoğlu Data Science Institute, UC San Diego</span><span>2023 APS Dissertation Award in Nuclear Physics · 2026 NSF CAREER Award recipient</span></div>
+      <div class="compact-item"><strong>Katarzyna Frankiewicz</strong><span>Postdoctoral researcher, 2019–2022</span><span>AI/ML contracted consultant for Google</span></div>
+      <div class="compact-item"><strong>Pedro Baculima</strong><span>B.S. in Physics, 2026 · Graduate student in physics at CU Boulder</span></div>
     </div>
   </div></section>
 </div>

@@ -195,6 +195,8 @@ body:has(.home-page) .navbar { box-shadow: none; }
 .compact-grid--on-dark .compact-item {background:rgba(255,255,255,.08);border-color:rgba(194,224,250,.22);}
 .compact-grid--on-dark .compact-item strong {color:#f2f7fb;}
 .compact-grid--on-dark .compact-item span {color:#b9d4e8;}
+.people-alumni {border-top:3px solid #335c80;}
+.people-alumni .section-lede {margin:.65rem 0 1.75rem;}
 .people-grid {margin-top:2rem;gap:1.35rem;}
 .person-portrait {display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:cover;border-radius:7px;}
 .person {padding:1.5rem;}

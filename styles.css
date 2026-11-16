@@ -194,6 +194,7 @@ body { overflow-x:hidden; }
 .compact-grid--on-dark .compact-item strong {color:#f2f7fb;}
 .compact-grid--on-dark .compact-item span {color:#b9d4e8;}
 .people-grid {margin-top:2rem;gap:1.35rem;}
+.person-portrait {display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:cover;border-radius:7px;}
 .person {padding:1.5rem;}
 .person h3 {margin:.3rem 0 .2rem;}
 .person p {line-height:1.65;}

@@ -1,0 +1,31 @@
+---
+pagetitle: "Publications"
+page-layout: custom
+---
+
+<div class="site-page">
+
+<div class="inner-banner"><div class="inner-shell"><span class="eyebrow">Selected publications</span><h1>Research in print.</h1><p>Selected results across neutrinoless double-beta decay, neutrino physics, rare-event detectors, and instrumentation. For the full record, see INSPIRE.</p></div></div>
+<div class="section-shell">
+  <div class="section-headline"><h2 class="section-title">Selected papers</h2><a class="text-link" href="https://inspirehep.net/authors/1922907">Complete record on INSPIRE <span aria-hidden="true">↗</span></a></div>
+  <ol class="publication-list">
+    <li><div><a href="https://doi.org/10.3847/1538-4357/aeb2ea">Search for Diffuse Supernova Neutrino Background in the Full KamLAND Dataset with Neural-Network-Based Event Classification</a><br>D. Chernyak et al. (KamLAND Collaboration), <em>Astrophys. J. 1011, 227 (2026).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/7qkt-mnqz">Performance of the Eos Detector with Water</a><br>S. Arora et al. (Eos Collaboration), <em>Phys. Rev. D 114, 052012 (2026).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/jkf6-48j8">Search for Majorana Neutrinos with the Complete KamLAND-Zen Dataset</a><br>S. Abe et al. (KamLAND-Zen Collaboration), <em>Phys. Rev. Lett. 135, 262501 (2025).</em></div></li>
+    <li><div><a href="https://doi.org/10.1140/epjc/s10052-025-14352-1">CUPID, the CUORE Upgrade with Particle Identification</a><br>K. Alfonso et al. (CUPID Collaboration), <em>Eur. Phys. J. C 85, 737 (2025).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.134.151802">Final Search for Short-Baseline Neutrino Oscillations with the PROSPECT-I Detector at HFIR</a><br>M. Andriamirado et al. (PROSPECT Collaboration), <em>Phys. Rev. Lett. 134, 151802 (2025).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.131.021802">Final Measurement of the ²³⁵U Antineutrino Energy Spectrum with the PROSPECT-I Detector at HFIR</a><br>M. Andriamirado et al. (PROSPECT Collaboration), <em>Phys. Rev. Lett. 131, 021802 (2023).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.130.091801">Evidence of Antineutrinos from Distant Reactors Using Pure Water at SNO+</a><br>A. Allega et al. (SNO+ Collaboration), <em>Phys. Rev. Lett. 130, 091801 (2023).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.130.051801">Search for the Majorana Nature of Neutrinos in the Inverted Mass Ordering Region with KamLAND-Zen</a><br>S. Abe et al. (KamLAND-Zen Collaboration), <em>Phys. Rev. Lett. 130, 051801 (2023).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevC.107.014323">KamNet: An Integrated Spatiotemporal Deep Neural Network for Rare Event Searches in KamLAND-Zen</a><br>A. Li et al., <em>Phys. Rev. C 107, 014323 (2023).</em></div></li>
+    <li><div><a href="https://doi.org/10.1088/1748-0221/16/05/P05009">Development, Characterisation, and Deployment of the SNO+ Liquid Scintillator</a><br>M. R. Anderson et al. (SNO+ Collaboration), <em>JINST 16, P05009 (2021).</em></div></li>
+    <li><div><a href="https://doi.org/10.1140/epjc/s10052-020-7977-8">Theia: An Advanced Optical Neutrino Detector</a><br>M. Askins et al., <em>Eur. Phys. J. C 80, 416 (2020).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.123.042502">First Measurement of the Total Neutron Cross Section on Argon Between 100 and 800 MeV</a><br>B. Bhandari et al. (CAPTAIN Collaboration), <em>Phys. Rev. Lett. 123, 042502 (2019).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevD.99.032008">Search for Invisible Modes of Nucleon Decay in Water with the SNO+ Detector</a><br>M. Anderson et al. (SNO+ Collaboration), <em>Phys. Rev. D 99, 032008 (2019).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevD.99.012012">Measurement of the ⁸B Solar Neutrino Flux in SNO+ with Very Low Backgrounds</a><br>M. Anderson et al. (SNO+ Collaboration), <em>Phys. Rev. D 99, 012012 (2019).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevC.92.055808">⁷Be Solar Neutrino Measurement with KamLAND</a><br>A. Gando et al. (KamLAND Collaboration), <em>Phys. Rev. C 92, 055808 (2015).</em></div></li>
+    <li><div><a href="https://doi.org/10.1007/JHEP10(2014)086">Improved Measurements of the Neutrino Mixing Angle θ₁₃ with the Double Chooz Detector</a><br>Y. Abe et al. (Double Chooz Collaboration), <em>JHEP 10, 086 (2014).</em></div></li>
+    <li><div><a href="https://doi.org/10.1103/PhysRevLett.100.221803">Precision Measurement of Neutrino Oscillation Parameters with KamLAND</a><br>S. Abe et al. (KamLAND Collaboration), <em>Phys. Rev. Lett. 100, 221803 (2008).</em></div></li>
+  </ol>
+</div>
+</div>

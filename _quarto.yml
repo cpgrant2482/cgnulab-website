@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/**
+    - scripts/**
+    - cv/**
+
+website:
+  title: "CGNU Lab"
+  description: "Grant Neutrino Research Group, Boston University"
+  navbar:
+    pinned: true
+    search: false
+    collapse: true
+    background: "#08152f"
+    foreground: "#f4f8ff"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Contact"
+        href: contact.qmd
+  page-footer:
+    left: "© 2026 Grant Neutrino Research Group · Boston University"
+    right:
+      - text: "BU Physics"
+        href: https://www.bu.edu/physics/
+      - text: "INSPIRE"
+        href: https://inspirehep.net/authors/1922907
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    title-block-style: none
+    grid:
+      body-width: 1150px
+      margin-width: 0px
+      sidebar-width: 0px

@@ -1,0 +1,12 @@
+---
+pagetitle: "News"
+page-layout: custom
+---
+<div class="site-page">
+  <section class="inner-banner"><div class="inner-shell"><span class="eyebrow">Research updates</span><h1>News and milestones.</h1><p>Selected publications and research highlights from our collaborators, students, and experimental programs.</p></div></section>
+  <section class="section-shell" aria-labelledby="milestones"><span class="section-kicker">Selected recent highlights</span><h2 id="milestones" class="section-title">From the lab and beyond.</h2>
+    <div class="research-feature"><div class="num">2026</div><article><h2>KamLAND searches for diffuse supernova neutrinos</h2><p>Using the full KamLAND dataset, the collaboration reported a search for the diffuse supernova neutrino background that employs a neural network to classify events and reduce backgrounds.</p><a class="text-link" href="https://doi.org/10.3847/1538-4357/aeb2ea">Read the Astrophysical Journal paper <span aria-hidden="true">↗</span></a></article></div>
+    <div class="research-feature"><div class="num">2026</div><article><h2>Eos reports water-phase detector performance</h2><p>The Eos collaboration published measurements of its detector performance with water, building toward future studies of hybrid Cherenkov and scintillation detection.</p><a class="text-link" href="https://doi.org/10.1103/7qkt-mnqz">Read the Physical Review D paper <span aria-hidden="true">↗</span></a></article></div>
+    <div class="research-feature"><div class="num">2025</div><article><h2>KamLAND-Zen publishes its complete-dataset search</h2><p>The collaboration reported its search for Majorana neutrinos using the complete KamLAND-Zen dataset, with major contributions from U.S. researchers to analysis and interpretation.</p><a class="text-link" href="https://doi.org/10.1103/jkf6-48j8">Read the Physical Review Letters paper <span aria-hidden="true">↗</span></a></article></div>
+  </section>
+</div>

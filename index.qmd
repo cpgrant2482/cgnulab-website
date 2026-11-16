@@ -3,6 +3,7 @@ pagetitle: "Home"
 page-layout: custom
 ---
 
+```{=html}
 <div class="site-page home-page">
 
   <section class="hero hero--detector" aria-labelledby="home-title">
@@ -59,3 +60,4 @@ page-layout: custom
   </section>
 </div>
 <script defer src="scripts/particle-field.js"></script>
+```

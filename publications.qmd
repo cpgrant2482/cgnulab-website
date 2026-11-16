@@ -3,6 +3,7 @@ pagetitle: "Publications"
 page-layout: custom
 ---
 
+```{=html}
 <div class="site-page">
 
 <div class="inner-banner"><div class="inner-shell"><span class="eyebrow">Selected publications</span><h1>Research in print.</h1><p>Selected results across neutrinoless double-beta decay, neutrino physics, rare-event detectors, and instrumentation. For the full record, see INSPIRE.</p></div></div>
@@ -29,3 +30,4 @@ page-layout: custom
   </ol>
 </div>
 </div>
+```

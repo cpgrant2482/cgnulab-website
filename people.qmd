@@ -2,6 +2,8 @@
 pagetitle: "People"
 page-layout: custom
 ---
+
+```{=html}
 <div class="site-page">
   <section class="inner-banner"><div class="inner-shell"><span class="eyebrow">The people behind the physics</span><h1>Meet the group.</h1><p>Graduate students, postdoctoral researchers, and collaborators working together on rare-event physics and experimental neutrino detection.</p></div></section>
   <section class="section-shell" aria-labelledby="team-title"><div class="section-topline"><span class="section-kicker">Current members</span><span class="section-count">As of November 2026</span></div><h2 id="team-title" class="section-title">Our team.</h2>
@@ -24,3 +26,4 @@ page-layout: custom
     </div>
   </div></section>
 </div>
+```

@@ -2,6 +2,8 @@
 pagetitle: "News"
 page-layout: custom
 ---
+
+```{=html}
 <div class="site-page">
   <section class="inner-banner"><div class="inner-shell"><span class="eyebrow">Research updates</span><h1>News and milestones.</h1><p>Selected publications and research highlights from our collaborators, students, and experimental programs.</p></div></section>
   <section class="section-shell" aria-labelledby="milestones"><span class="section-kicker">Selected recent highlights</span><h2 id="milestones" class="section-title">From the lab and beyond.</h2>
@@ -10,3 +12,4 @@ page-layout: custom
     <div class="research-feature"><div class="num">2025</div><article><h2>KamLAND-Zen publishes its complete-dataset search</h2><p>The collaboration reported its search for Majorana neutrinos using the complete KamLAND-Zen dataset, with major contributions from U.S. researchers to analysis and interpretation.</p><a class="text-link" href="https://doi.org/10.1103/jkf6-48j8">Read the Physical Review Letters paper <span aria-hidden="true">↗</span></a></article></div>
   </section>
 </div>
+```

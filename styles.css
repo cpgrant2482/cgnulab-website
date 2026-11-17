@@ -172,8 +172,8 @@ body:has(.home-page) .navbar { box-shadow: none; }
  line-height:1.5;
 }
 .kamland-credit a {color:#c6dcef;}
-.hero--detector .hero-eyebrow { margin:0 0 24px; color:#b4daf8; font-size:.71rem; letter-spacing:.23em; }
-.hero--detector h1 { width:fit-content; max-width:39vw; font-size:clamp(2.04rem,3.9vw,4.02rem); line-height:1.035; margin:0 0 1.5rem; letter-spacing:-.058em; font-weight:760; text-wrap:pretty; }
+.hero--detector .hero-eyebrow { margin:0 0 52px; color:#b4daf8; font-size:.71rem; letter-spacing:.23em; }
+.hero--detector h1 { width:fit-content; max-width:39vw; font-size:clamp(2.04rem,3.9vw,4.02rem); line-height:1.035; margin:0 0 calc(1.5rem + 34px); letter-spacing:-.058em; font-weight:760; text-wrap:pretty; }
 .hero--detector .hero-description { max-width:min(535px, 39vw); font-size:clamp(1.01rem,1.35vw,1.19rem); line-height:1.72; color:#d9e8f7; margin:0; }
 .hero--detector .hero-buttons { max-width:39vw; margin-top:clamp(1.1rem, 3vh, 1.75rem); }
 .hero--detector .scroll-cue {left:6vw; transform:none; bottom:2.4rem; text-decoration:none; color:#c1d9f0; white-space:nowrap;}
@@ -264,10 +264,10 @@ body:has(.home-page) .navbar { box-shadow: none; }
 @media (max-width:700px) {
  .hero--detector {min-height:calc(100svh - 66px);}
  .hero--detector .hero-content {width:89vw;padding:3rem 0 4.5rem;}
- .hero--detector h1 {max-width:560px;font-size:clamp(1.9rem,7.2vw,3rem);line-height:1.03;}
+ .hero--detector h1 {max-width:560px;font-size:clamp(1.9rem,7.2vw,3rem);line-height:1.03;margin-bottom:calc(1.5rem + 22px);}
  .hero--detector .hero-description {max-width:570px;font-size:1rem;}
  .hero--detector .hero-buttons {max-width:none;}
- .hero--detector .hero-eyebrow {margin-bottom:16px;font-size:.62rem;letter-spacing:.13em;}
+ .hero--detector .hero-eyebrow {margin-bottom:32px;font-size:.62rem;letter-spacing:.13em;}
  .hero--detector .scroll-cue {left:5.5vw;bottom:1.6rem;font-size:.6rem;}
  .project-grid,.news-grid,.people-grid,.compact-grid,.contact-layout {grid-template-columns:1fr;}
  .research-feature {grid-template-columns:1fr;gap:.7rem;}

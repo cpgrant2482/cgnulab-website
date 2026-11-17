@@ -11,7 +11,7 @@ page-layout: custom
       <div class="hero-copy">
         <p class="hero-eyebrow">Chris Grant Neutrino Lab <span aria-hidden="true">·</span> Boston University</p>
         <h1 id="home-title">Where the smallest particles <em>raise the biggest questions.</em></h1>
-        <p class="hero-description">We build detectors and develop new ways to analyze their signals, searching for rare processes that illuminate the nature of neutrinos and the origins of matter.</p>
+        <p class="hero-description">We develop new detector technologies and advanced analysis methods to search for rare neutrino processes and explore the origins of matter.</p>
         <div class="hero-buttons">
           <a class="hero-button primary" href="research.html">Explore our research <span aria-hidden="true">↗</span></a>
           <a class="hero-button secondary" href="people.html">Meet the group</a>
